@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login input{
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    padding: 15px 25px;
+    border-radius: 7px;
+    width: 250px;
+}
+
+#botaoEnviar{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(0, 200, 0);
+    color: #fff;
+    width: 150px;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background-color: rgb(75, 200, 75);
+}
+
+.login a{
+    text-decoration: none;
+    color: blue;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
